@@ -1,0 +1,668 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.container
+{
+    background-color: black;
+    height:10vh;
+    width:100%;
+    display: flex;
+}
+.logo
+{
+  margin-left: 300px;
+  width:0vw;  
+  height: 100%;
+  
+
+}
+.image
+{
+    width: 60%;
+    height: 100%;
+}
+
+.navigation
+{
+    display: flex;
+    margin: 20px 50px;
+    margin-left: 400px;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.items
+{
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.items:hover
+{
+    text-decoration: underline;
+}
+.space
+{
+    width: 100%;
+    height:20vh;
+    background-color:black;
+
+}
+.ban
+{
+    width: 100%;
+    height:60vh;
+    position: relative;
+    
+}
+.main-ban
+{
+    width: 60%;
+    height: 40vh;
+    margin-left: 350px;
+    filter: brightness(65%); 
+}
+.heading
+{
+    position: absolute;
+    top: 30%;
+    left:40%;
+    text-shadow: 2px 2px rgb(0 0 0 / 20%);
+    color: #fff;
+    font-size: 2.25rem;
+    font-family: Montserrat,sans-serif;
+    font-weight: bolder;
+}
+hr
+{
+    color: brown;
+}
+h2
+{
+    margin-top: 300px;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size:2rem;
+    color: #2d2d2d;
+}
+p
+{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    color: rgba(0,0,0,.8);
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+}
+section
+{
+    margin: 15px;
+}
+.grids
+{
+
+    height:50vh;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+  
+}
+img
+{
+height: 100%;
+width: 100%;
+}
+.img-cont
+{
+    border-radius: 5px;
+    margin:5px;
+}
+
+.img1
+{
+    grid-column:1/6;
+    grid-row:1/66;
+}
+.img2
+{
+    grid-column:6/9 ;
+    grid-row:1/24 ;
+    
+}
+.img3
+{
+    grid-column:6/9;
+    grid-row:24/55 ;
+   
+}
+.img4
+{
+    grid-column:9/13 ;
+    grid-row:1/15 ;
+    
+}
+.img5
+{
+    grid-column:9/13;
+    grid-row:15/55 ;
+}
+.forms{
+    background-color:#f6f8f8 ;
+    height: 60vh;
+    width: 100%;
+    margin-top: 100px;
+  
+}
+#form-browse{
+    margin-top: 90px;
+    width: 10%;
+    margin-left: 850px;
+}
+.browse h2{
+    margin-top:80px;
+}
+#dep1{
+    font-weight: 600;
+    font-family: Montserrat,sans-serif;
+    /* font-family: georgia,serif; */
+    font-size:20px;
+    color: rgba(0,0,0,.8);
+    margin-left: 400px;
+}
+#options{
+    margin-left: 400px;
+    color: #2d2d2d;
+    height: 50px;
+    width: 70%;
+    margin-top: 10px;
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+}
+.engineering{
+    display: flex;
+}
+.engineering h2{
+    margin-top:20px;
+    padding-right:950px;
+    margin-left: 400px;
+    font-family: Montserrat,sans-serif;
+}
+.engineering p{
+    margin-top: 20px;
+}
+.ux{
+    display: flex;
+}
+.ux h4{
+    margin-top:20px;
+    padding-right:950px;
+    margin-left: 400px;
+    font-size: 1.2rem;
+    font-family: Montserrat,sans-serif;
+    font-weight: 250px;
+    color:rgb(10, 128, 175);
+}
+.ux p{
+    margin-top: 20px;
+}
+hr{
+    width: 77%;
+    margin-left: 400px;
+}
+.tech{
+    display: flex;
+}
+.tech h4{
+    margin-top:20px;
+    padding-right:800px;
+    margin-left: 400px;
+    font-size: 1.2rem;
+    font-family: Montserrat,sans-serif;
+    font-weight: 250px;
+    color:rgb(10, 128, 175);
+}
+.tech p{
+    margin-top: 20px;
+}
+hr{
+    width: 77%;
+    margin-left: 400px;
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #151416;
+}
+footer h1{
+    color: white;
+    font-size: 1.5rem;
+    font-family: Montserrat,sans-serif;
+    text-align: center;
+    padding-top: 90px;
+}
+footer button{
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0069d9;
+    font-weight: 500px;
+    border-radius: 23px;
+    height: 40px;
+    width: 8%;
+    font-family: Montserrat,sans-serif;
+    margin-left:850px;
+    margin-top: 30px;
+}
+footer p{
+    color: white;
+    font-size: 12px;
+    font-family: Montserrat,sans-serif;
+    margin-right: 900px;
+
+}
+.foot{
+    margin-left:1500px;
+}
+.fa{
+    margin-left:30px;
+    margin-top: 15px;
+
+    }
+    @media (max-width: 1980px) {
+        .logo{
+            width: 40%;
+        }
+        .menu{
+            display: none;
+        }
+     }
+     @media (max-width: 1607px) { 
+         .logo{
+    
+             margin-left: 0px;
+         }
+         /* .heading{
+             text-align: center;
+             margin-right: 600px;
+         } */
+         .main-ban{
+            margin-left:200px;
+        }
+        .heading{
+            left: 30%;
+        }
+        .logo{
+            width: 30%;
+        }
+        .image{
+            width: 90%;
+        }
+         .navigation{
+             height: 10vh;
+             width: 120%;
+         }
+         .items{
+             border: 2px solid red;
+             width: 130%;
+         }
+         #dep1{
+             margin-left: 200px;
+         }
+         #options{
+             margin-left: 200px;
+         }
+         .engineering h2{
+             margin-left: 200px;
+             padding-right: 700px;
+         }
+        .ux h4{
+            margin-left: 200px;
+            padding-right: 700px;
+        }
+        hr{
+            margin-left: 200px;
+            width: 78%;
+        }
+        .tech h4{
+            margin-left: 200px;
+            padding-right: 600px;
+        }
+        footer button{
+            margin-left:750px;
+        }
+        .icons{
+            display: flex;
+            padding-left: 0px;
+            width: 90%;
+            margin-left:0px;
+            padding-left: 700px;
+        }
+        .foot{
+            margin-left: 0px;
+        }
+        .fa{
+            margin-left: 30px;
+            margin-top: 15px;
+
+        }
+     }
+     @media (max-width: 1456px) { 
+         .navigation{
+             height: 15vh;
+             margin-top: 0px;
+             border: 2px solid yellow;
+             width: 160%;
+             margin-left: 150px;
+         }
+         .items{
+             width: 180%;
+         }
+         #dep1{
+             margin-left: 100px;
+         }
+         #options{
+             margin-left: 100px;
+         }
+         .engineering h2{
+             margin-left: 100px;
+         }
+         .ux h4{
+             margin-left: 100px;
+         }
+         .tech h4{
+             margin-left: 100px;
+         }
+         hr{
+             margin-left: 100px;
+             width: 98%;
+         }
+
+      }
+      @media (max-width: 1293px){
+          footer button{
+              margin-left: 600px;
+          }
+      }
+      @media (max-width: 1095px){
+          #dep1{
+              margin-left: 10px;
+          }
+          #options{
+              margin-left: 10px;
+          }
+          .engineering h2{
+              margin-left: 10px;
+              padding-right: 500px;
+          }
+          .ux h4{
+              margin-left: 10px;
+              padding-right: 500px;
+          }
+          .tech h4{
+              margin-left: 10px;
+              padding-right: 400px;
+          }
+          hr{
+              margin-left: 10px;
+          }
+          footer button{
+              margin-left: 500px;
+          }
+          .logo{
+            width: 50%;
+            margin-left: 0px;
+        }
+        .image{
+            width: 100%;
+            height: 8vh;
+        }
+        footer button{
+            width: 20%;
+        }
+      }
+
+@media (max-width:700px) {
+    .navigation{
+        display: none;
+    }
+    .menu{
+        display: unset;
+    }
+    .container{
+        width: 100%;
+    }
+    .logo{
+        width: 110%;
+       
+        margin-left: 0px;
+    }
+    .image{
+        width: 100%;
+        height: 8vh;
+    }
+    .menu img{
+        width: 25%;
+        margin-left: 300px;
+    } 
+    .space{
+        width: 100%;
+    } 
+    .ban{
+        width: 100%;
+    }
+    .main-ban{
+        margin-left: 0px;
+        width: 100%;
+    }
+    hr{
+        margin-left: 0px;
+    }
+    h2{
+        margin-top:250px;
+    }
+    .grids{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .forms{
+        width: 100%;
+        margin-top: 60px;
+    }
+    #form-browse{
+        margin-left: 280px;
+        margin-top: 20px;
+    }
+    .browse h2{
+        margin-top: 30px;
+    }
+    #dep1{
+        margin-left: 30px;
+    }
+    #options{
+        margin-left: 30px;
+    }
+    .engineering{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .engineering h2{
+        width:0%;
+        margin-left: 0px;
+    }
+    .engineering p{
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-right:450px;
+        
+    }
+    .ux{
+        display: flex;
+        flex-direction: column;
+    }
+    .ux h4{
+        margin-left: 0px;
+        width: 80%;
+    }
+    .ux p{
+        margin-left: 0px;
+        padding-right: 300px;
+    }
+    hr{
+        margin-left: 0px;
+    }
+    .tech{
+        display: flex;
+        flex-direction: column;
+    }
+    .tech h4{
+        margin-left: 0px;
+        width: 80%;
+    }
+    .tech p{
+        margin-left: 0px;
+        padding-right: 250px;
+    }
+    hr{
+        margin-left: 0px;
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    footer button{
+        margin-left: 0px;  color: #fff;
+        background-color: #0069d9;
+        border-color: #0069d9;
+        font-weight: 500px;
+        border-radius: 23px;
+        height: 40px;
+        width: 20%;
+        font-family: Montserrat,sans-serif;
+        margin-left:250px;
+        margin-top: 30px;
+    }
+    .foot{
+        width: 100%;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+    .fa{
+        margin-left:20px;
+        margin-top: 15px;
+        }
+    footer p{
+        margin-right:100px;
+        width: 100%;
+    }
+    footer button{
+        width: 20%;
+    }
+}
+@media (max-width: 961px){
+    .navigation{
+        display: none;
+    }
+    .menu{
+        display: unset;
+        width: 20%;
+        margin-left:600px;
+    }
+    .logo{
+        width: 20%;
+        height: 6vh;
+    }
+}
+@media (max-width: 901px){
+    .main-ban{
+        width: 80%;
+        margin-left:70px;
+    }
+    .icons{
+        padding-left:600px;
+    }
+    footer button{
+        margin-left:400px;
+        width: 15%;
+    }
+    footer p{
+        width: 20%;
+    }
+}
+@media (max-width: 801px){
+    .main-ban{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .grids{
+        width: 100%;
+    }
+    .engineering{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .engineering h2{
+        width:0%;
+        margin-left: 0px;
+    }
+    .engineering p{
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-right:450px;
+        
+    }
+    .ux{
+        display: flex;
+        flex-direction: column;
+    }
+    .ux h4{
+        margin-left: 0px;
+        width: 80%;
+    }
+    .ux p{
+        margin-left: 0px;
+        padding-right: 300px;
+    }
+    hr{
+        margin-left: 0px;
+    }
+    .tech{
+        display: flex;
+        flex-direction: column;
+    }
+    .tech h4{
+        margin-left: 0px;
+        width: 80%;
+    }
+    .tech p{
+        margin-left: 0px;
+        padding-right: 250px;
+    }
+    hr{
+        margin-left: 0px;
+        width: 100%;
+    }
+    footer button{
+        margin-left: 200px;
+        height: 10vh;
+        border-radius: 20%;
+    }
+    .icons{
+        padding-left: 60px;
+    }
+    footer p{
+        width: 30%;
+    }
+}
+
+
+
