@@ -310,7 +310,6 @@ footer p{
              width: 120%;
          }
          .items{
-             border: 2px solid red;
              width: 130%;
          }
          #dep1{
@@ -358,7 +357,6 @@ footer p{
          .navigation{
              height: 15vh;
              margin-top: 0px;
-             border: 2px solid yellow;
              width: 160%;
              margin-left: 150px;
          }
@@ -439,9 +437,8 @@ footer p{
     .container{
         width: 100%;
     }
-    .logo{
-        width: 110%;
-       
+    /* .logo{
+        width: 110%;    
         margin-left: 0px;
     }
     .image{
@@ -451,7 +448,7 @@ footer p{
     .menu img{
         width: 25%;
         margin-left: 300px;
-    } 
+    }  */
     .space{
         width: 100%;
     } 
@@ -541,7 +538,6 @@ footer p{
     footer button{
         margin-left: 0px;  color: #fff;
         background-color: #0069d9;
-        border-color: #0069d9;
         font-weight: 500px;
         border-radius: 23px;
         height: 40px;
@@ -566,6 +562,20 @@ footer p{
     footer button{
         width: 20%;
     }
+    .menu{
+        display: unset;
+        width: 700%;
+        margin-left:600px;
+    }
+    .logo{
+        width:1000%;
+        height: 6vh;
+        /* margin-left: 300px; */
+     
+    }
+    .image{
+        width:1000%;
+    }
 }
 @media (max-width: 961px){
     .navigation{
@@ -573,12 +583,32 @@ footer p{
     }
     .menu{
         display: unset;
-        width: 20%;
+        width: 700%;
         margin-left:600px;
     }
     .logo{
-        width: 20%;
+        width: 300%;
         height: 6vh;
+        /* margin-left: 300px; */
+    }
+    .image{
+        width: 300%;
+    }
+}
+@media (max-width: 759px){
+    .menu{
+        display: unset;
+        width: 700%;
+        margin-left:600px;
+    }
+    .logo{
+        width: 400%;
+        height: 6vh;
+        /* margin-left: 300px; */
+     
+    }
+    .image{
+        width: 400%;
     }
 }
 @media (max-width: 901px){
@@ -663,6 +693,144 @@ footer p{
         width: 30%;
     }
 }
+@media (max-width:660px){
+.menu{
+        display: unset;
+        width: 700%;
+        margin-left:600px;
+    }
+    .logo{
+        width:2000%;
+        height: 6vh;
+        /* margin-left: 300px; */
+     
+    }
+    .image{
+        width:1500%;
+    }
+}
+@media (max-width:628px){
+    .menu{
+            display: unset;
+            width: 700%;
+            margin-left:600px;
+        }
+        .logo{
+            width:2000%;
+            height: 6vh;
+            /* margin-left: 300px; */
+         
+        }
+        .image{
+            width:1500%;
+        }
+    }
+@media (max-width:400px) { 
+.container{
+    width: 155%;
+}
+.logo{
+    margin-left: 0px;
+    width: 2500%;
+   
+}
+.image{
+    width: 2500%;
+}
+.ban{
+    width: 155%;
+}
+.heading{
+left: 15%; 
+}
+h2{
+    margin-left: 120px;
+    font-size: 2.3rem;
+
+    width: 100%;
+}
+p{
+    margin-left: 120px;
+    width: 100%;
+    font-size: 1.7rem;
+}
+.grids
+{
+display: flex;
+flex-direction: column;
+width: 150%;
+}
+.forms{
+    margin-top: 2100px;
+}
+.browse h2{
+    font-size: 2.5rem;
+}
+#dep1{
+    font-size: 2rem;
+}
+#options{
+    width: 140%;
+    height: 70px;
+    font-size: 2rem;
+}
+.engineering{
+    font-size: 2rem;
+    margin-left: 10px;
+}
+.engineering p{
+    font-size: 1.5rem;
+}
+hr{
+    width: 150%;
+}
+.ux h4{
+    font-size: 2rem;
+}
+.ux p{
+    margin-left: 0px;
+    border: 2px solid red;
+    padding-left: 0px;
+    width: 100%;
+    font-size: 1.5rem;
+}
+.tech h4{
+font-size: 2rem;
+}
+.tech p{
+    font-size: 1.5rem;
+}
+footer{
+    border: 2px solid red;
+    margin-top: 100px;
+    width: 150%;
+    height: 100vh;
+}
+footer h1{
+
+    font-size: 2.5rem;
+}
+footer button{
+    width: 35%;
+    border-radius: 45px;
+    font-size: 1.2rem;
+}.foot{
+  
+    margin-left: 20px;
+    height:50px;
+}
+.fa{
+    margin-left:80px;
+  
+    margin-top: 0px;
+    
+}
+footer p{
+    font-size: 2rem;
+    width: 100%;
+    margin-left: 0px;
+}
+ }
 
 
 
